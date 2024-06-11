@@ -10,10 +10,7 @@ import {
 } from "react-router-dom";
 
 const App = () => {
-  const apikey = import.meta.env.VITE_NEWS_API_KEY || 'default value'
-  console.log('hello')
-  console.log(apikey)
-  console.log(import.meta.env.VITE_NEWS_API_KEY)
+  const apikey = import.meta.env.VITE_NEWS_API_KEY
   const pageSize = 6
     const router = createBrowserRouter(
       createRoutesFromElements(
