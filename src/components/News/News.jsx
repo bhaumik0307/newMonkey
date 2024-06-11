@@ -18,7 +18,7 @@ const News = (props) => {
         let url = 'https://newsapi.org/v2/top-headlines?' +
             'country=in&' +
             `category=${props.category}&` +
-            `apiKey=${props.apikey}&` +
+            `apiKey=6c887a5bdbb34408905570e4aa29105d&` +
             `pageSize=${props.pageSize}&` +
             `page=${currentPage}`;
         let req = new Request(url);
@@ -38,7 +38,7 @@ const News = (props) => {
         let url = 'https://newsapi.org/v2/top-headlines?' +
             'country=in&' +
             `category=${props.category}&` +
-            `apiKey=${props.apikey}&` +
+            `apiKey=6c887a5bdbb34408905570e4aa29105d&` +
             `pageSize=${props.pageSize}&` +
             `page=${currentPage + 1}`;
 
